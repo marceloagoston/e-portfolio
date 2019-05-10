@@ -1,0 +1,178 @@
+/*cambiar color a la seleccion de texto*/
+*{margin: 0; padding:0;}
+*::selection{
+	background:#B2D531;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+header {
+	width: 100%;
+	overflow: hidden;
+	background-color: #11191e;
+}
+.subheader{
+	font-style: oblique; 
+	width: 100%; 
+	margin: auto
+	font-size: 18px;
+	line-height: 25px;
+	overflow: hidden;
+}
+.logo {
+	text-decoration: none;
+	color: #ebebeb;
+	line-height: 120px;
+	font-size: 40px;
+	float: left;
+}
+header nav{
+	text-decoration: none;
+	color: #ebebeb;
+	float: right;
+	line-height: 120px;
+}
+.wrapper{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.wrapper2{
+	width: 50%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+header nav a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	line-height: normal;
+	font-size: 18px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+header nav a:hover {
+	background-color: #3CC834;
+	border-radius: 50px;
+}
+header nav a img:hover {
+	
+	transform: rotate(20deg);
+	transition: all 0.4s ease-out;
+}
+
+@media screen and (max-width: 950px) {
+	header .logo,
+	header nav {
+		width: 100%;
+		text-align: center;
+		line-height: 75px;
+	}
+}
+footer {
+	background-color: #1D2326; 
+	color: white; 
+	text-align: center; 
+	padding: 16px;
+	margin-top: 40px;
+}
+footer img {
+	width: 100px; 
+	height:100px;
+	line-height: 120px;
+	float: left
+}
+footer div p {
+	display: inline-block; 
+	font-weight: 300;
+	line-height: 120px;
+	float: right;
+}
+.barra_divisora{
+	width: 90%; 
+	padding: 2px; 
+	background-color: #3CC834; 
+	margin: auto;margin-top: 30px; 
+	margin-bottom: 30px;
+}
+h2 {
+	margin: 20px
+}
+.links {
+	text-decoration: underline #3CC834;
+	color: #3CC834;
+}
+/*textos*/
+section p {
+	text-indent: 40px;
+	line-height: 23px;
+}
+.contacto_Wapp {
+	display: inline-block; 
+	line-height: 50px;
+}
+.img_entradas {
+	width: 70%; 
+	margin: auto; 
+	overflow: hidden;
+}
+.img_tiras {
+	width: 100%; 
+	margin: auto; 
+	overflow: hidden;
+}
+.tiras{
+	width: 100%; 
+	margin: auto; 
+	overflow: hidden; 
+	max-width: 700px;
+	margin-bottom: 10px;
+}
+/*.sect_redes{
+	margin: 50px auto;
+	width: 1025px;
+	height: 150px;
+}*/
+.sect_redes{
+	margin: 0;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+.redes{
+	width: 38px;
+	height: 38px;
+	float: left;
+	margin-left: 20px;
+	transition: all 0.4s ease-out;
+	border-radius: 60%;
+}
+.redes:hover{
+	cursor: pointer;
+	transform: rotate(20deg);
+}
+.redes#facebook{
+	background-color: #4267B2;
+}
+.redes#instagram{
+	background-color: #AD3092;
+}
+.redes#linkedin{
+	background-color: #0270AD;
+}
+.icono{
+	margin: 0px auto;
+	padding: 9px;
+	width: 20px;
+	height: auto;
+}
+.centrar{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+/*Import Social Buttons*/

@@ -5,4 +5,4 @@ Al principio a modo de fijar conocimientos, ni siquiera se utilizo una hoja de e
 
 Luego se empezó a mudar de a poco el código a una hoja de estilos.
 
-Actualmente sigue en ese estado por falta de tiempo.
+En los próximos días estaré re factorizando el código y llevando los estilos a la hoja de estilos e implementando su versión responsive. 
